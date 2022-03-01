@@ -7,10 +7,10 @@ set -e
 npm run docs:build
 
 # 进入生成的文件夹
-cd public
+cd ./public
 
 # 如果是发布到自定义域名
-# echo 'daily.xiaojubusongxi26.love' > CNAME
+echo 'daily.xiaojubusongxi26.love' > CNAME
 
 git init
 git add -A
