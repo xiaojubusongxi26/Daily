@@ -29,6 +29,6 @@ features:
 
 <style>
   .hero {
-    /* color: #FFF */
+    color: #FFF
   }
 </style>

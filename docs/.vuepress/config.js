@@ -117,7 +117,7 @@ module.exports = {
     "searchMaxSuggestions": 10,
     "lastUpdated": "更新时间",
     "author": "小橘",
-    "authorAvatar": "/avatar1.jpg",
+    "authorAvatar": "/mmexport1639710400520.jpg",
     "record": "xxxx",
     "startYear": "2022 "
   },
