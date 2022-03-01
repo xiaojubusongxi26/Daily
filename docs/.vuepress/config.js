@@ -38,10 +38,6 @@ module.exports = {
     ['link', { rel: 'mask-icon', href: '/icons/144.png', color: '#3eaf7c' }],
     ['meta', { name: 'msapplication-TileImage', content: '/icons/144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
-    // [
-    //   'link',
-    //   { rel: 'stylesheet', href: './public/assets/css/fontawesome.css' }
-    // ]
   ],
   plugins: pluginsConf,
   "theme": "reco",
