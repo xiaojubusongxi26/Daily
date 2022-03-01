@@ -68,12 +68,6 @@ module.exports = {
         "desc": "Enjoy when you can, and endure when you must.（主题的作者大佬）",
         "email": "1156743527@qq.com",
         "link": "https://www.recoluan.com"
-      },
-      {
-        "title": "小李浩",
-        "desc": "小李浩虽然很可爱，但是他那里现在什么都没有",
-        "avatar": "https://daily.keylargo.top/icon_vuepress_reco.png",
-        "link": "https://daily.keylargo.top/"
       }
     ],
     "logo": "/小橘.png",
