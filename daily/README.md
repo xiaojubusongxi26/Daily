@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 嗨！好久不见，记得我还在这里哦
+heroText: 嗨！好久不见，记得我还在这里哦，怎么没效果啊
 tagline: 小橘不颂兮
 # heroImage: /hero.png
 # heroImageStyle: {
