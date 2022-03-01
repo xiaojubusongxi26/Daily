@@ -1,5 +1,9 @@
 {
+  "name": "daily",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev daily",
     "docs:build": "vuepress build daily",
     "deploy": "bash deploy.sh"
@@ -9,9 +13,6 @@
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-theme-reco": "^1.6.11"
   },
-  "name": "Daily",
-  "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:xiaojubusongxi26/Daily.git",
   "author": "XiaoJu <1600549245@qq.com>",
   "license": "MIT",
