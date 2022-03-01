@@ -1,4 +1,5 @@
-const nav = require("./config/nav")
+const nav = require("./config/nav");
+const pluginsConf = require("./config/pluginsConf");
 
 module.exports = {
   "title": "小橘不颂兮",
@@ -42,6 +43,7 @@ module.exports = {
     //   { rel: 'stylesheet', href: './public/assets/css/fontawesome.css' }
     // ]
   ],
+  plugins: pluginsConf,
   "theme": "reco",
   "themeConfig": {
     "nav": nav,
@@ -126,14 +128,5 @@ module.exports = {
     '/': {
       lang: 'zh-CN'
     }
-  },
-  plugins: [
-    '@vuepress/pwa',  {
-      serviceWorker: true,
-      updatePopup: { // 更改刷新内容的弹窗的显示文字
-        message: "内容有更新啦~",
-        buttonText: "我看看"
-      }
-    }
-  ]
+  }
 }
