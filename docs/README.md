@@ -11,7 +11,7 @@ tagline: 小橘不颂兮
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
-bgImage: '/assets/img/bg/755ce8eegy1gjw0am3xs8j21fe2us1ky.png'
+bgImage: '/assets/img/bg/755ce8eegy1gjw0am3xs8j21fe2us1ky.jpg'
 bgImageStyle: {
   height: '450px'
 }
