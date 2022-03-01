@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 嗨！好久不见，还好吗？
+heroText: 嗨！好久不见
 tagline: 小橘不颂兮
 # heroImage: /hero.png
 # heroImageStyle: {
@@ -11,7 +11,7 @@ tagline: 小橘不颂兮
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
-bgImage: '/assets/img/bg/755ce8eegy1gjw0am3xs8j21fe2us1ky.png'
+# bgImage: '/assets/img/bg/755ce8eegy1gjw0am3xs8j21fe2us1ky.png'
 bgImageStyle: {
   height: '450px'
 }
