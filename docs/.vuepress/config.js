@@ -1,3 +1,4 @@
+const headConf = require("./config/headConf");
 const nav = require("./config/nav");
 const pluginsConf = require("./config/pluginsConf");
 
@@ -5,40 +6,7 @@ module.exports = {
   "title": "小橘不颂兮",
   "description": "欢迎来到小橘不颂兮的个人博客",
   // "dest": "public",
-  "head": [
-    [
-      "link",
-      {
-        "rel": "icon",
-        "href": "/favicon.ico"
-      }
-    ],
-    [
-      "meta",
-      {
-        "name": "viewport",
-        "content": "width=device-width,initial-scale=1,user-scalable=no"
-      }
-    ],
-    [
-      'link',
-      {
-        "rel": 'stylesheet',
-        "href": 'https://at.alicdn.com/t/font_3211877_r75u9wkbvh.css',
-        "type": 'text/css'
-      }
-    ],
-    ['meta', { name: 'keywords', content: '小橘不颂兮的个人博客，前端，计算机，摄影，学习，向前走吧' }],
-    ['meta', { name: 'author', content: '小橘不颂兮' }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }  ],
-    ['link', { rel: 'apple-touch-icon', href: '/icons/144.png' }],
-    ['link', { rel: 'mask-icon', href: '/icons/144.png', color: '#3eaf7c' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/icons/144.png' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
-  ],
+  "head": headConf,
   plugins: pluginsConf,
   "theme": "reco",
   "themeConfig": {
@@ -113,7 +81,7 @@ module.exports = {
     "searchMaxSuggestions": 10,
     "lastUpdated": "更新时间",
     "author": "小橘",
-    "authorAvatar": "/mmexport1639710400520.jpg",
+    "authorAvatar": "/assets/img/avatar/mmexport1639710400520.jpg",
     "record": "xxxx",
     "startYear": "2022 "
   },
