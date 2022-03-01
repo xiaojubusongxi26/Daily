@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev daily",
+    "docs:build": "vuepress build daily",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.0.0",
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-theme-reco": "^1.6.11"
+  },
+  "name": "Daily",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xiaojubusongxi26/Daily.git",
+  "author": "XiaoJu <1600549245@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}

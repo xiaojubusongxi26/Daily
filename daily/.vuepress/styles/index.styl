@@ -1,0 +1,66 @@
+// 卡片悬浮效果
+.abstract-item::before, .abstract-item::after {
+  box-sizing: inherit;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.abstract-item {
+  transition: color 0.25s;
+}
+.abstract-item::before, .abstract-item::after {
+  border: 3px solid transparent;
+  width: 0;
+  height: 0;
+}
+
+.abstract-item::before {
+  top: 0;
+  left: 0;
+}
+.abstract-item::after {
+  bottom: 0;
+  right: 0;
+}
+.abstract-item:hover {
+  color: #60daaa;
+}
+.abstract-item:hover::before, .abstract-item:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.abstract-item:hover::before {
+  border-top-color: #60daaa;
+  border-right-color: #60daaa;
+  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+.abstract-item:hover::after {
+  border-bottom-color: #60daaa;
+  border-left-color: #60daaa;
+  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+
+
+.abstract-item:hover {
+  color: #8e9bf9;
+}
+.abstract-item::after {
+  top: 0;
+  left: 0;
+}
+.abstract-item:hover::before {
+  border-top-color: #8e9bf9;
+  border-right-color: #8e9bf9;
+}
+.abstract-item:hover::after {
+  border-bottom-color: #8e9bf9;
+  border-left-color: #8e9bf9;
+  transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
+}
+
+// .icon-gongju:before {
+//   content: "\e602";
+// }
+
