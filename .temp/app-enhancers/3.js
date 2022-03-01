@@ -1,0 +1,1 @@
+export { default } from "D:\\MyData\\Daily\\node_modules\\@vuepress-reco\\vuepress-plugin-pagation\\bin\\enhanceAppFile.js"
