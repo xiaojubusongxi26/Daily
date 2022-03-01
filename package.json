@@ -16,6 +16,7 @@
   "author": "XiaoJu <1600549245@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.9.7",
     "vuepress": "^1.9.7"
   }
 }
