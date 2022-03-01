@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 嗨！好久不见，记得要开心噢
+heroText: 嗨！好久不见
 tagline: 小橘不颂兮
 # heroImage: /hero.png
 # heroImageStyle: {
@@ -16,8 +16,8 @@ bgImageStyle: {
   height: '450px'
 }
 isShowTitleInHome: false
-actionText: Guide
-actionLink: /views/other/guide
+# actionText: Guide
+# actionLink: /views/other/guide
 features:
 - title: Yesterday
   details: 逝者如斯

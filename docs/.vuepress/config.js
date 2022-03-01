@@ -63,12 +63,12 @@ module.exports = {
     },
     // 友情链接
     "friendLink": [
-      {
+      /* {
         "title": "午后南杂",
         "desc": "Enjoy when you can, and endure when you must.（主题的作者大佬）",
         "email": "1156743527@qq.com",
         "link": "https://www.recoluan.com"
-      }
+      } */
     ],
     "logo": "/小橘.png",
     "search": true,
