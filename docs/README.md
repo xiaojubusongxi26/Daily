@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 嗨！好久不见
+heroText: 嗨！好久不见，记得要开心噢
 tagline: 小橘不颂兮
 # heroImage: /hero.png
 # heroImageStyle: {
@@ -29,6 +29,6 @@ features:
 
 <style>
   .hero {
-    color: #FFF
+    /* color: #FFF */
   }
 </style>
