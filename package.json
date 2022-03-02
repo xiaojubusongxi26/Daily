@@ -24,7 +24,8 @@
   "devDependencies": {
     "@vuepress/plugin-pwa": "^1.9.7",
     "vuepress": "^1.9.7",
-    "vuepress-plugin-dynamic-title": "^1.0.0"
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-go-top": "^1.0.4"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.0.0",

@@ -14,5 +14,6 @@ module.exports = {
      hideIcon: "/favicon.ico",
      hideText: "(●—●)喔哟，崩溃啦！",
      recoverTime: 2000
-  }
+  },
+  "go-top": {}
 }

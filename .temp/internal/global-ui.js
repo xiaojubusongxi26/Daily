@@ -1,5 +1,6 @@
 export default [
   "BackToTop",
   "SWUpdatePopup",
-  "DynamicTitle"
+  "DynamicTitle",
+  "GoTop"
 ]

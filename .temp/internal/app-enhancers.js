@@ -1,7 +1,7 @@
 import m0 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\0.js"
 import m1 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\1.js"
 import m2 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\data-block.js"
-import m3 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\global-components-9.js"
+import m3 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\global-components-1.js"
 import m4 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\2.js"
 import m5 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\3.js"
 import m6 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\dynamic-pagation.js"
@@ -13,6 +13,7 @@ import m11 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\8.js"
 import m12 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\9.js"
 import m13 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\10.js"
 import m14 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\11.js"
+import m15 from "D:\\MyData\\Daily\\.temp\\app-enhancers\\12.js"
 
 export default [
   m0,
@@ -29,5 +30,6 @@ export default [
   m11,
   m12,
   m13,
-  m14
+  m14,
+  m15
 ]
