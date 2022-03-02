@@ -13,7 +13,7 @@ tagline: 小橘不颂兮
 # }
 bgImage: '/assets/img/bg/晚霞.jpg'
 bgImageStyle: {
-  height: '450px'
+  # height: '450px'
 }
 isShowTitleInHome: false
 # actionText: Guide

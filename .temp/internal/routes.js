@@ -29,11 +29,11 @@ export const routes = [
     },
   },
   {
-    name: "v-3bd931fb",
-    path: "/blogs/JavaScript/WebAPI.html",
+    name: "v-a6bf4572",
+    path: "/blogs/JavaScript/RegularExpression.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3bd931fb").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a6bf4572").then(next)
     },
   },
   {
@@ -53,11 +53,11 @@ export const routes = [
     redirect: "/blogs/C%E8%AF%AD%E8%A8%80/%E5%87%BD%E6%95%B0%E5%B0%8F%E8%AE%B0.html"
   },
   {
-    name: "v-a6bf4572",
-    path: "/blogs/JavaScript/RegularExpression.html",
+    name: "v-3bd931fb",
+    path: "/blogs/JavaScript/WebAPI.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a6bf4572").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3bd931fb").then(next)
     },
   },
   {
@@ -85,14 +85,6 @@ export const routes = [
     },
   },
   {
-    name: "v-bc6631ca",
-    path: "/blogs/vuepress/vuepress.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-bc6631ca").then(next)
-    },
-  },
-  {
     name: "v-34c608b2",
     path: "/blogs/%E5%90%8E%E7%AB%AF/MyBatis.html",
     component: GlobalLayout,
@@ -107,6 +99,14 @@ export const routes = [
   {
     path: "/blogs/后端/MyBatis.html",
     redirect: "/blogs/%E5%90%8E%E7%AB%AF/MyBatis.html"
+  },
+  {
+    name: "v-bc6631ca",
+    path: "/blogs/vuepress/vuepress.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-bc6631ca").then(next)
+    },
   },
   {
     name: "v-dfa392ac",
@@ -177,26 +177,6 @@ export const routes = [
     redirect: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/compositionPrinciple/"
   },
   {
-    name: "v-583e6a99",
-    path: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/computerNetwork/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-583e6a99").then(next)
-    },
-  },
-  {
-    path: "/blogs/计算机基础/computerNetwork/",
-    redirect: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/computerNetwork/"
-  },
-  {
-    path: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/computerNetwork/index.html",
-    redirect: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/computerNetwork/"
-  },
-  {
-    path: "/blogs/计算机基础/computerNetwork/",
-    redirect: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/computerNetwork/"
-  },
-  {
     name: "v-575e9ced",
     path: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/dataStructure/",
     component: GlobalLayout,
@@ -217,12 +197,20 @@ export const routes = [
     redirect: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/dataStructure/"
   },
   {
-    name: "v-1b3db930",
-    path: "/other/xiaoju.html",
+    name: "v-1c254a3c",
+    path: "/%E7%95%99%E8%A8%80%E6%9D%BF.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1b3db930").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1c254a3c").then(next)
     },
+  },
+  {
+    path: "/留言板.html",
+    redirect: "/%E7%95%99%E8%A8%80%E6%9D%BF.html"
+  },
+  {
+    path: "/留言板.html",
+    redirect: "/%E7%95%99%E8%A8%80%E6%9D%BF.html"
   },
   {
     name: "v-07ed4fc2",
@@ -245,20 +233,48 @@ export const routes = [
     redirect: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/operatingSystem/"
   },
   {
-    name: "v-1c254a3c",
-    path: "/%E7%95%99%E8%A8%80%E6%9D%BF.html",
+    name: "v-583e6a99",
+    path: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/computerNetwork/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1c254a3c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-583e6a99").then(next)
     },
   },
   {
-    path: "/留言板.html",
-    redirect: "/%E7%95%99%E8%A8%80%E6%9D%BF.html"
+    path: "/blogs/计算机基础/computerNetwork/",
+    redirect: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/computerNetwork/"
   },
   {
-    path: "/留言板.html",
-    redirect: "/%E7%95%99%E8%A8%80%E6%9D%BF.html"
+    path: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/computerNetwork/index.html",
+    redirect: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/computerNetwork/"
+  },
+  {
+    path: "/blogs/计算机基础/computerNetwork/",
+    redirect: "/blogs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/computerNetwork/"
+  },
+  {
+    name: "v-1b3db930",
+    path: "/other/xiaoju.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1b3db930").then(next)
+    },
+  },
+  {
+    name: "v-1cd2fde4",
+    path: "/%E8%AE%A1%E5%88%92%E6%A0%8F.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1cd2fde4").then(next)
+    },
+  },
+  {
+    path: "/计划栏.html",
+    redirect: "/%E8%AE%A1%E5%88%92%E6%A0%8F.html"
+  },
+  {
+    path: "/计划栏.html",
+    redirect: "/%E8%AE%A1%E5%88%92%E6%A0%8F.html"
   },
   {
     name: "v-b1564aac",
@@ -326,30 +342,17 @@ export const routes = [
     redirect: "/tag/JS/"
   },
   {
-    name: "v-3258de12",
-    path: "/tag/DOM/",
+    name: "v-a4358e00",
+    path: "/tag/正则表达式/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-3258de12").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-a4358e00").then(next)
     },
-    meta: {"pid":"tags","id":"DOM"}
+    meta: {"pid":"tags","id":"正则表达式"}
   },
   {
-    path: "/tag/DOM/index.html",
-    redirect: "/tag/DOM/"
-  },
-  {
-    name: "v-325aaf8e",
-    path: "/tag/BOM/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-325aaf8e").then(next)
-    },
-    meta: {"pid":"tags","id":"BOM"}
-  },
-  {
-    path: "/tag/BOM/index.html",
-    redirect: "/tag/BOM/"
+    path: "/tag/正则表达式/index.html",
+    redirect: "/tag/正则表达式/"
   },
   {
     name: "v-eb5eaa9a",
@@ -391,17 +394,30 @@ export const routes = [
     redirect: "/tag/函数/"
   },
   {
-    name: "v-a4358e00",
-    path: "/tag/正则表达式/",
+    name: "v-3258de12",
+    path: "/tag/DOM/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-a4358e00").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-3258de12").then(next)
     },
-    meta: {"pid":"tags","id":"正则表达式"}
+    meta: {"pid":"tags","id":"DOM"}
   },
   {
-    path: "/tag/正则表达式/index.html",
-    redirect: "/tag/正则表达式/"
+    path: "/tag/DOM/index.html",
+    redirect: "/tag/DOM/"
+  },
+  {
+    name: "v-325aaf8e",
+    path: "/tag/BOM/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-325aaf8e").then(next)
+    },
+    meta: {"pid":"tags","id":"BOM"}
+  },
+  {
+    path: "/tag/BOM/index.html",
+    redirect: "/tag/BOM/"
   },
   {
     name: "v-66172787",
@@ -443,19 +459,6 @@ export const routes = [
     redirect: "/tag/框架/"
   },
   {
-    name: "v-dfb71430",
-    path: "/tag/vuepress/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-dfb71430").then(next)
-    },
-    meta: {"pid":"tags","id":"vuepress"}
-  },
-  {
-    path: "/tag/vuepress/index.html",
-    redirect: "/tag/vuepress/"
-  },
-  {
     name: "v-47997495",
     path: "/tag/后端/",
     component: GlobalLayout,
@@ -480,6 +483,19 @@ export const routes = [
   {
     path: "/tag/MyBatis/index.html",
     redirect: "/tag/MyBatis/"
+  },
+  {
+    name: "v-dfb71430",
+    path: "/tag/vuepress/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-dfb71430").then(next)
+    },
+    meta: {"pid":"tags","id":"vuepress"}
+  },
+  {
+    path: "/tag/vuepress/index.html",
+    redirect: "/tag/vuepress/"
   },
   {
     name: "v-4bb4ec90",
@@ -547,19 +563,6 @@ export const routes = [
     redirect: "/tag/计算机组成原理/"
   },
   {
-    name: "v-0aea8d27",
-    path: "/tag/计算机网络/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-0aea8d27").then(next)
-    },
-    meta: {"pid":"tags","id":"计算机网络"}
-  },
-  {
-    path: "/tag/计算机网络/index.html",
-    redirect: "/tag/计算机网络/"
-  },
-  {
     name: "v-92b3076c",
     path: "/tag/数据结构/",
     component: GlobalLayout,
@@ -584,6 +587,19 @@ export const routes = [
   {
     path: "/tag/操作系统/index.html",
     redirect: "/tag/操作系统/"
+  },
+  {
+    name: "v-0aea8d27",
+    path: "/tag/计算机网络/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-0aea8d27").then(next)
+    },
+    meta: {"pid":"tags","id":"计算机网络"}
+  },
+  {
+    path: "/tag/计算机网络/index.html",
+    redirect: "/tag/计算机网络/"
   },
   {
     name: "v-7efe64ca",
@@ -638,19 +654,6 @@ export const routes = [
     redirect: "/categories/Vue/"
   },
   {
-    name: "v-9fa33418",
-    path: "/categories/vuepress/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-9fa33418").then(next)
-    },
-    meta: {"pid":"categories","id":"vuepress"}
-  },
-  {
-    path: "/categories/vuepress/index.html",
-    redirect: "/categories/vuepress/"
-  },
-  {
     name: "v-12afc5a1",
     path: "/categories/后端/",
     component: GlobalLayout,
@@ -662,6 +665,19 @@ export const routes = [
   {
     path: "/categories/后端/index.html",
     redirect: "/categories/后端/"
+  },
+  {
+    name: "v-9fa33418",
+    path: "/categories/vuepress/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-9fa33418").then(next)
+    },
+    meta: {"pid":"categories","id":"vuepress"}
+  },
+  {
+    path: "/categories/vuepress/index.html",
+    redirect: "/categories/vuepress/"
   },
   {
     name: "v-0c66c492",

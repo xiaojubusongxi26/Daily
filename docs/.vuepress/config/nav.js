@@ -5,6 +5,11 @@ module.exports = [
     "icon": "reco-home"
   },
   {
+    "text": "计划栏",
+    "icon": "reco-document",
+    "link": "/计划栏"
+  },
+  {
     "text": "时间线",
     "link": "/timeline/",
     "icon": "reco-date"

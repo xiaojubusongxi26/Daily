@@ -48,7 +48,8 @@ module.exports = {
       ],
       "/blogs/vuepress/": [
         "vuepress"
-      ],
+      ]
+      
     },
     "type": "blog",
     "blogConfig": {

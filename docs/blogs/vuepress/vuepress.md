@@ -1,7 +1,7 @@
 ---
 title: vuepress构建步骤
 date: 2022-3-1
-sticky: 1
+sticky: 2
 tags:
  - vuepress
 categories:
