@@ -19,11 +19,14 @@ module.exports = {
   {
     //  metingApi,
      meting: {
-      auto: 'https://music.163.com/#/playlist?id=7212643937'
+      auto: 'https://music.163.com/#/playlist?id=7317453882'
      },
      aplayer: {
       fixed: true,
-      lrcType: 3
+      lrcType: 3,
+      autoplay: true,
+      theme: '#ff9f6f',
+      loop: 'one'
      },
      mobile: {
       lrc: true
