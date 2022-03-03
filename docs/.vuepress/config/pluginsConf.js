@@ -15,5 +15,19 @@ module.exports = {
      hideText: "(●—●)喔哟，崩溃啦！",
      recoverTime: 2000
   },
+  'meting':
+  {
+    //  metingApi,
+     meting: {
+      auto: 'https://music.163.com/#/playlist?id=7212643937'
+     },
+     aplayer: {
+      fixed: true,
+      lrcType: 3
+     },
+     mobile: {
+      lrc: true
+     }
+  },
   "go-top": {}
 }

@@ -1,1 +1,1 @@
-export { default } from "D:\\MyData\\Daily\\node_modules\\vuepress-plugin-go-top\\bin\\enhanceAppFile.js"
+export { default } from "D:\\MyData\\Daily\\node_modules\\vuepress-plugin-meting\\lib\\enhanceAppFile.js"
