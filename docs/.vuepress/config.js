@@ -75,7 +75,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "更新时间",
-    "author": "小橘",
+    "author": "小橘不颂兮",
     "authorAvatar": "/assets/img/avatar/mmexport1639710400520.jpg",
     "record": "xxxx",
     "startYear": "2022 "
