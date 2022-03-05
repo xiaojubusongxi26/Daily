@@ -35,7 +35,8 @@ module.exports = {
       "/blogs/JavaScript/": [
         "jQuery",
         "RegularExpression",
-        "WebAPI"
+        "WebAPI",
+        "ES6模块化"
       ],
       "/blogs/Vue/": [
         "Vue"

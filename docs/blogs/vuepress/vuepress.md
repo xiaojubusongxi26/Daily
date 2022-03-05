@@ -288,7 +288,7 @@ yarn deploy
 **查看是否部署成功:**
 <img :src="$withBase('/assets/img/other/vuepress/settings.png')" /><br>
 <img :src="$withBase('/assets/img/other/vuepress/githubpages.png')" /><br>
-<img :src="$withBase('/assets/img/other/vuepress/查看域名.png')" /><br>
+<img :src="$withBase('/assets/img/other/vuepress/viewdomainnames.png')" /><br>
 
 <br><br>
 

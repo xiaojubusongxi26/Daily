@@ -94,6 +94,17 @@ module.exports = [
     "link": "/留言板"
   },
   {
+    "text": "其他",
+    "icon": "reco-message",
+    "items": [
+      {
+        "text": "emoji",
+        "link": "/other/emoji",
+        "icon": "reco-account"
+      }
+    ]
+  },
+  {
     "text": "关于",
     "icon": "reco-message",
     "items": [
