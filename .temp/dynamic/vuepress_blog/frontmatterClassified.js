@@ -11,6 +11,60 @@ export default {
         "v-31e220a1"
       ]
     },
+    "JS": {
+      "key": "JS",
+      "scope": "tags",
+      "path": "/tag/JS/",
+      "pageKeys": [
+        "v-a6bf4572",
+        "v-3bd931fb",
+        "v-b3a5960a"
+      ]
+    },
+    "正则表达式": {
+      "key": "正则表达式",
+      "scope": "tags",
+      "path": "/tag/正则表达式/",
+      "pageKeys": [
+        "v-a6bf4572"
+      ]
+    },
+    "ES6": {
+      "key": "ES6",
+      "scope": "tags",
+      "path": "/tag/ES6/",
+      "pageKeys": [
+        "v-e19918a6"
+      ]
+    },
+    "JavaScript": {
+      "key": "JavaScript",
+      "scope": "tags",
+      "path": "/tag/JavaScript/",
+      "pageKeys": [
+        "v-e19918a6"
+      ]
+    },
+    "Vue": {
+      "key": "Vue",
+      "scope": "tags",
+      "path": "/tag/Vue/",
+      "pageKeys": [
+        "v-26481be1"
+      ]
+    },
+    "框架": {
+      "key": "框架",
+      "scope": "tags",
+      "path": "/tag/框架/",
+      "pageKeys": [
+        "v-26481be1",
+        "v-34c608b2",
+        "v-4b6b7dfe",
+        "v-d1f4fd2c",
+        "v-dfa392ac"
+      ]
+    },
     "C语言": {
       "key": "C语言",
       "scope": "tags",
@@ -37,16 +91,6 @@ export default {
         "v-bbb94484"
       ]
     },
-    "JS": {
-      "key": "JS",
-      "scope": "tags",
-      "path": "/tag/JS/",
-      "pageKeys": [
-        "v-3bd931fb",
-        "v-a6bf4572",
-        "v-b3a5960a"
-      ]
-    },
     "DOM": {
       "key": "DOM",
       "scope": "tags",
@@ -63,66 +107,14 @@ export default {
         "v-3bd931fb"
       ]
     },
-    "ES6": {
-      "key": "ES6",
-      "scope": "tags",
-      "path": "/tag/ES6/",
-      "pageKeys": [
-        "v-e19918a6"
-      ]
-    },
-    "JavaScript": {
-      "key": "JavaScript",
-      "scope": "tags",
-      "path": "/tag/JavaScript/",
-      "pageKeys": [
-        "v-e19918a6"
-      ]
-    },
-    "正则表达式": {
-      "key": "正则表达式",
-      "scope": "tags",
-      "path": "/tag/正则表达式/",
-      "pageKeys": [
-        "v-a6bf4572"
-      ]
-    },
-    "Vue": {
-      "key": "Vue",
-      "scope": "tags",
-      "path": "/tag/Vue/",
-      "pageKeys": [
-        "v-26481be1"
-      ]
-    },
-    "框架": {
-      "key": "框架",
-      "scope": "tags",
-      "path": "/tag/框架/",
-      "pageKeys": [
-        "v-26481be1",
-        "v-34c608b2",
-        "v-d1f4fd2c",
-        "v-4b6b7dfe",
-        "v-dfa392ac"
-      ]
-    },
-    "vuepress": {
-      "key": "vuepress",
-      "scope": "tags",
-      "path": "/tag/vuepress/",
-      "pageKeys": [
-        "v-bc6631ca"
-      ]
-    },
     "后端": {
       "key": "后端",
       "scope": "tags",
       "path": "/tag/后端/",
       "pageKeys": [
         "v-34c608b2",
-        "v-d1f4fd2c",
         "v-4b6b7dfe",
+        "v-d1f4fd2c",
         "v-dfa392ac"
       ]
     },
@@ -134,13 +126,21 @@ export default {
         "v-34c608b2"
       ]
     },
+    "vuepress": {
+      "key": "vuepress",
+      "scope": "tags",
+      "path": "/tag/vuepress/",
+      "pageKeys": [
+        "v-bc6631ca"
+      ]
+    },
     "Spring": {
       "key": "Spring",
       "scope": "tags",
       "path": "/tag/Spring/",
       "pageKeys": [
-        "v-d1f4fd2c",
         "v-4b6b7dfe",
+        "v-d1f4fd2c",
         "v-dfa392ac"
       ]
     },
@@ -152,12 +152,12 @@ export default {
         "v-4b6b7dfe"
       ]
     },
-    "jQuery": {
-      "key": "jQuery",
+    "SpringBoot": {
+      "key": "SpringBoot",
       "scope": "tags",
-      "path": "/tag/jQuery/",
+      "path": "/tag/SpringBoot/",
       "pageKeys": [
-        "v-b3a5960a"
+        "v-dfa392ac"
       ]
     },
     "数据结构": {
@@ -169,22 +169,14 @@ export default {
         "v-575e9ced"
       ]
     },
-    "SpringBoot": {
-      "key": "SpringBoot",
-      "scope": "tags",
-      "path": "/tag/SpringBoot/",
-      "pageKeys": [
-        "v-dfa392ac"
-      ]
-    },
     "计算机基础": {
       "key": "计算机基础",
       "scope": "tags",
       "path": "/tag/计算机基础/",
       "pageKeys": [
         "v-1f9f56c9",
-        "v-07ed4fc2",
         "v-583e6a99",
+        "v-07ed4fc2",
         "v-575e9ced"
       ]
     },
@@ -196,12 +188,12 @@ export default {
         "v-1f9f56c9"
       ]
     },
-    "操作系统": {
-      "key": "操作系统",
+    "jQuery": {
+      "key": "jQuery",
       "scope": "tags",
-      "path": "/tag/操作系统/",
+      "path": "/tag/jQuery/",
       "pageKeys": [
-        "v-07ed4fc2"
+        "v-b3a5960a"
       ]
     },
     "计算机网络": {
@@ -210,6 +202,14 @@ export default {
       "path": "/tag/计算机网络/",
       "pageKeys": [
         "v-583e6a99"
+      ]
+    },
+    "操作系统": {
+      "key": "操作系统",
+      "scope": "tags",
+      "path": "/tag/操作系统/",
+      "pageKeys": [
+        "v-07ed4fc2"
       ]
     }
   },
@@ -222,22 +222,14 @@ export default {
         "v-31e220a1"
       ]
     },
-    "C语言": {
-      "key": "C语言",
-      "scope": "categories",
-      "path": "/categories/C语言/",
-      "pageKeys": [
-        "v-bbb94484"
-      ]
-    },
     "JavaScript": {
       "key": "JavaScript",
       "scope": "categories",
       "path": "/categories/JavaScript/",
       "pageKeys": [
-        "v-3bd931fb",
-        "v-e19918a6",
         "v-a6bf4572",
+        "v-e19918a6",
+        "v-3bd931fb",
         "v-b3a5960a"
       ]
     },
@@ -249,12 +241,12 @@ export default {
         "v-26481be1"
       ]
     },
-    "vuepress": {
-      "key": "vuepress",
+    "C语言": {
+      "key": "C语言",
       "scope": "categories",
-      "path": "/categories/vuepress/",
+      "path": "/categories/C语言/",
       "pageKeys": [
-        "v-bc6631ca"
+        "v-bbb94484"
       ]
     },
     "后端": {
@@ -263,9 +255,17 @@ export default {
       "path": "/categories/后端/",
       "pageKeys": [
         "v-34c608b2",
-        "v-d1f4fd2c",
         "v-4b6b7dfe",
+        "v-d1f4fd2c",
         "v-dfa392ac"
+      ]
+    },
+    "vuepress": {
+      "key": "vuepress",
+      "scope": "categories",
+      "path": "/categories/vuepress/",
+      "pageKeys": [
+        "v-bc6631ca"
       ]
     },
     "算法": {
@@ -282,8 +282,8 @@ export default {
       "path": "/categories/计算机基础/",
       "pageKeys": [
         "v-1f9f56c9",
-        "v-07ed4fc2",
         "v-583e6a99",
+        "v-07ed4fc2",
         "v-575e9ced"
       ]
     }
