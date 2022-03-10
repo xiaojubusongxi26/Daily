@@ -11,24 +11,6 @@ export default {
         "v-31e220a1"
       ]
     },
-    "JS": {
-      "key": "JS",
-      "scope": "tags",
-      "path": "/tag/JS/",
-      "pageKeys": [
-        "v-a6bf4572",
-        "v-3bd931fb",
-        "v-b3a5960a"
-      ]
-    },
-    "正则表达式": {
-      "key": "正则表达式",
-      "scope": "tags",
-      "path": "/tag/正则表达式/",
-      "pageKeys": [
-        "v-a6bf4572"
-      ]
-    },
     "ES6": {
       "key": "ES6",
       "scope": "tags",
@@ -43,26 +25,6 @@ export default {
       "path": "/tag/JavaScript/",
       "pageKeys": [
         "v-e19918a6"
-      ]
-    },
-    "Vue": {
-      "key": "Vue",
-      "scope": "tags",
-      "path": "/tag/Vue/",
-      "pageKeys": [
-        "v-26481be1"
-      ]
-    },
-    "框架": {
-      "key": "框架",
-      "scope": "tags",
-      "path": "/tag/框架/",
-      "pageKeys": [
-        "v-26481be1",
-        "v-34c608b2",
-        "v-4b6b7dfe",
-        "v-d1f4fd2c",
-        "v-dfa392ac"
       ]
     },
     "C语言": {
@@ -91,6 +53,24 @@ export default {
         "v-bbb94484"
       ]
     },
+    "JS": {
+      "key": "JS",
+      "scope": "tags",
+      "path": "/tag/JS/",
+      "pageKeys": [
+        "v-a6bf4572",
+        "v-3bd931fb",
+        "v-b3a5960a"
+      ]
+    },
+    "正则表达式": {
+      "key": "正则表达式",
+      "scope": "tags",
+      "path": "/tag/正则表达式/",
+      "pageKeys": [
+        "v-a6bf4572"
+      ]
+    },
     "DOM": {
       "key": "DOM",
       "scope": "tags",
@@ -107,23 +87,12 @@ export default {
         "v-3bd931fb"
       ]
     },
-    "后端": {
-      "key": "后端",
+    "jQuery": {
+      "key": "jQuery",
       "scope": "tags",
-      "path": "/tag/后端/",
+      "path": "/tag/jQuery/",
       "pageKeys": [
-        "v-34c608b2",
-        "v-4b6b7dfe",
-        "v-d1f4fd2c",
-        "v-dfa392ac"
-      ]
-    },
-    "MyBatis": {
-      "key": "MyBatis",
-      "scope": "tags",
-      "path": "/tag/MyBatis/",
-      "pageKeys": [
-        "v-34c608b2"
+        "v-b3a5960a"
       ]
     },
     "vuepress": {
@@ -134,14 +103,53 @@ export default {
         "v-bc6631ca"
       ]
     },
+    "Vue": {
+      "key": "Vue",
+      "scope": "tags",
+      "path": "/tag/Vue/",
+      "pageKeys": [
+        "v-26481be1"
+      ]
+    },
+    "框架": {
+      "key": "框架",
+      "scope": "tags",
+      "path": "/tag/框架/",
+      "pageKeys": [
+        "v-26481be1",
+        "v-34c608b2",
+        "v-4b6b7dfe",
+        "v-dfa392ac",
+        "v-d1f4fd2c"
+      ]
+    },
+    "后端": {
+      "key": "后端",
+      "scope": "tags",
+      "path": "/tag/后端/",
+      "pageKeys": [
+        "v-34c608b2",
+        "v-4b6b7dfe",
+        "v-dfa392ac",
+        "v-d1f4fd2c"
+      ]
+    },
+    "MyBatis": {
+      "key": "MyBatis",
+      "scope": "tags",
+      "path": "/tag/MyBatis/",
+      "pageKeys": [
+        "v-34c608b2"
+      ]
+    },
     "Spring": {
       "key": "Spring",
       "scope": "tags",
       "path": "/tag/Spring/",
       "pageKeys": [
         "v-4b6b7dfe",
-        "v-d1f4fd2c",
-        "v-dfa392ac"
+        "v-dfa392ac",
+        "v-d1f4fd2c"
       ]
     },
     "SpringMVC": {
@@ -174,26 +182,10 @@ export default {
       "scope": "tags",
       "path": "/tag/计算机基础/",
       "pageKeys": [
-        "v-1f9f56c9",
         "v-583e6a99",
+        "v-1f9f56c9",
         "v-07ed4fc2",
         "v-575e9ced"
-      ]
-    },
-    "计算机组成原理": {
-      "key": "计算机组成原理",
-      "scope": "tags",
-      "path": "/tag/计算机组成原理/",
-      "pageKeys": [
-        "v-1f9f56c9"
-      ]
-    },
-    "jQuery": {
-      "key": "jQuery",
-      "scope": "tags",
-      "path": "/tag/jQuery/",
-      "pageKeys": [
-        "v-b3a5960a"
       ]
     },
     "计算机网络": {
@@ -202,6 +194,14 @@ export default {
       "path": "/tag/计算机网络/",
       "pageKeys": [
         "v-583e6a99"
+      ]
+    },
+    "计算机组成原理": {
+      "key": "计算机组成原理",
+      "scope": "tags",
+      "path": "/tag/计算机组成原理/",
+      "pageKeys": [
+        "v-1f9f56c9"
       ]
     },
     "操作系统": {
@@ -227,18 +227,10 @@ export default {
       "scope": "categories",
       "path": "/categories/JavaScript/",
       "pageKeys": [
-        "v-a6bf4572",
         "v-e19918a6",
+        "v-a6bf4572",
         "v-3bd931fb",
         "v-b3a5960a"
-      ]
-    },
-    "Vue": {
-      "key": "Vue",
-      "scope": "categories",
-      "path": "/categories/Vue/",
-      "pageKeys": [
-        "v-26481be1"
       ]
     },
     "C语言": {
@@ -249,6 +241,22 @@ export default {
         "v-bbb94484"
       ]
     },
+    "vuepress": {
+      "key": "vuepress",
+      "scope": "categories",
+      "path": "/categories/vuepress/",
+      "pageKeys": [
+        "v-bc6631ca"
+      ]
+    },
+    "Vue": {
+      "key": "Vue",
+      "scope": "categories",
+      "path": "/categories/Vue/",
+      "pageKeys": [
+        "v-26481be1"
+      ]
+    },
     "后端": {
       "key": "后端",
       "scope": "categories",
@@ -256,16 +264,8 @@ export default {
       "pageKeys": [
         "v-34c608b2",
         "v-4b6b7dfe",
-        "v-d1f4fd2c",
-        "v-dfa392ac"
-      ]
-    },
-    "vuepress": {
-      "key": "vuepress",
-      "scope": "categories",
-      "path": "/categories/vuepress/",
-      "pageKeys": [
-        "v-bc6631ca"
+        "v-dfa392ac",
+        "v-d1f4fd2c"
       ]
     },
     "算法": {
@@ -281,8 +281,8 @@ export default {
       "scope": "categories",
       "path": "/categories/计算机基础/",
       "pageKeys": [
-        "v-1f9f56c9",
         "v-583e6a99",
+        "v-1f9f56c9",
         "v-07ed4fc2",
         "v-575e9ced"
       ]
