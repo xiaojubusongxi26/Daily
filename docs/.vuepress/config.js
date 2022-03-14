@@ -36,7 +36,8 @@ module.exports = {
         "jQuery",
         "RegularExpression",
         "WebAPI",
-        "ES6模块化"
+        "ES6模块化",
+        "选择器"
       ],
       "/blogs/Vue/": [
         "Vue"
