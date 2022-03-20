@@ -30,7 +30,8 @@ module.exports = {
         "operatingSystem/"
       ],
       "/blogs/CSS/": [
-        "CSS"
+        "CSS",
+        "Bootstrap"
       ],
       "/blogs/JavaScript/": [
         "jQuery",
