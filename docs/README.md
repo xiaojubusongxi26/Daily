@@ -27,6 +27,7 @@ features:
   details: 孤独前行
 ---
 
+
 <style>
   .hero {
     color: #FFF
@@ -85,6 +86,5 @@ export default {
     h.add("box");
     console.log(h);
   }
-  
 }
 </script>

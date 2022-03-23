@@ -38,7 +38,8 @@ module.exports = {
         "RegularExpression",
         "WebAPI",
         "ES6模块化",
-        "选择器"
+        "选择器",
+        "JS问题汇总"
       ],
       "/blogs/Vue/": [
         "Vue"
