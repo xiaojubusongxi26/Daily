@@ -44,6 +44,9 @@ module.exports = {
       "/blogs/Vue/": [
         "Vue"
       ],
+      "/blogs/前端/":[
+        "Node.js"
+      ],
       "/blogs/后端/": [
         "MyBatis",
         "Spring",

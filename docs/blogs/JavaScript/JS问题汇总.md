@@ -1,6 +1,6 @@
 ---
 title: JS问题汇总
-date: 2021-10-28
+date: 2022-03-23
 tags:
  - JS
 categories:
@@ -20,4 +20,15 @@ categories:
   let h = document.querySelector("h1")
   // 新节点添加在指定节点之前
   D.insertBefore(divEle, h)
+```
+
+
+## 使用原生JS 添加 / 删除 类
+
+```js
+// 添加
+let somenode = document.querySelector("#demo").classList.add("class")
+
+// 删除
+let somenode = document.querySelector("#demo").classList.remove("class")
 ```
