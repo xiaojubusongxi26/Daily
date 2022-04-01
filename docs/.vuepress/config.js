@@ -45,7 +45,8 @@ module.exports = {
         "Vue"
       ],
       "/blogs/前端/":[
-        "Node.js"
+        "Node.js",
+        "Nginx"
       ],
       "/blogs/后端/": [
         "MyBatis",
