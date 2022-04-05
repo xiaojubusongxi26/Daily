@@ -39,25 +39,26 @@ module.exports = {
         "WebAPI",
         "ES6模块化",
         "选择器",
-        "JS问题汇总"
+        "JS问题汇总",
+        "ES6-11新特性"
       ],
       "/blogs/Vue/": [
-        "Vue"
+        "Vue",
+        "项目配置"
       ],
       "/blogs/前端/":[
         "Node.js",
-        "Nginx"
+        "Nginx",
+        "vuepress",
+        "webpack",
+        "学习问题汇总"
       ],
       "/blogs/后端/": [
         "MyBatis",
         "Spring",
         "SpringBoot",
         "SpringMVC"
-      ],
-      "/blogs/vuepress/": [
-        "vuepress"
-      ]
-      
+      ],     
     },
     "type": "blog",
     "blogConfig": {
