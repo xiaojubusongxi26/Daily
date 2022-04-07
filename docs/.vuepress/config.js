@@ -51,7 +51,8 @@ module.exports = {
         "Nginx",
         "vuepress",
         "webpack",
-        "学习问题汇总"
+        "学习问题汇总",
+        "在Vue中使用vue-cropper裁剪图片并向nodejs后台传入数据"
       ],
       "/blogs/后端/": [
         "MyBatis",
