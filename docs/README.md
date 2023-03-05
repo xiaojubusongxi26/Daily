@@ -18,6 +18,7 @@ bgImageStyle: {
 isShowTitleInHome: false
 # actionText: Guide
 # actionLink: /views/other/guide
+
 features:
 - title: Yesterday
   details: 逝者如斯

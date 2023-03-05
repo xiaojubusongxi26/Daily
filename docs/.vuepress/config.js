@@ -6,6 +6,7 @@ module.exports = {
   "title": "小橘不颂兮",
   "description": "欢迎来到小橘不颂兮的个人博客",
   // "dest": "public",
+  base: "./",
   "head": headConf,
   plugins: pluginsConf,
   "theme": "reco",
@@ -87,8 +88,12 @@ module.exports = {
     "lastUpdated": "更新时间",
     "author": "小橘不颂兮",
     "authorAvatar": "/assets/img/avatar/mmexport1639710400520.jpg",
-    "record": "xxxx",
-    "startYear": "2022 "
+    "record": `蜀ICP备2022003892号`,
+    "recordLink": 'https://beian.miit.gov.cn/',
+    "startYear": "2022 ",
+    "footer": {
+      "display": true
+    }
   },
   "markdown": {
     "lineNumbers": true
